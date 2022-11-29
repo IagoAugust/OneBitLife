@@ -1,23 +1,27 @@
 import React from "react";
-import { View, ScrollView, Text } from "react-native-gesture-handler";
+import { View, ScrollView, Text, StyleSheet } from "react-native";
 
 import DefaultButton from "../../Components/Common/DefaultButton";
-
+import ExplanationCard from "../../Components/Explanation/ExplanationCard";
 export default function AppExplanation(){
 
   function handleSetShowHome(){
-    console.log("Botão Clicando para Home");
+    console.log("Botão Clicando");
   }
   return (
-    <View style={StyleSheet.container}>
+    <View style={styles.container}>
       <ScrollView>
         <View style={{ alignItems: "center"}}>
           <Text style={styles.title}>
             Antes, Deixar {"\n"} eu te explicar
           </Text>
+          
+          <ExplanationCard />
+
           <Text style={styles.descriptionCta}>
             Pronto(a) para subir de nível na vida ?
           </Text>
+          
           <Text style={styles.description}>
             Na próxima tela você vai poder escolher {"\n"} seu 4 hábitos de forma individual.
           </Text>

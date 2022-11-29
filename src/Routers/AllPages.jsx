@@ -9,7 +9,7 @@ export default function AllPages(){
   return (
     <NavigationContainer>
       <Stack.Navigator 
-        screenOption={{
+        screenOptions={{
           headerShown:false,
         }}
       >

@@ -7,7 +7,7 @@ import DefaultButton from "../../Components/Common/DefaultButton";
 
 export default function Start() {
 
-  const handleNavAppExplanation = () => {console.log("Testando o Clique");}
+  const handleNavAppExplanation = () => {console.log("Testando o Clique Explicação");}
 
   return (
     <View style={styles.container}>

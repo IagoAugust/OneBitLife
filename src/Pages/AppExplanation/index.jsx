@@ -4,7 +4,6 @@ import { useNavigation } from "@react-navigation/native";
 
 import DefaultButton from "../../Components/Common/DefaultButton";
 import ExplanationCard from "../../Components/Explanation/ExplanationCard";
-
 export default function AppExplanation(){
   const navigation = useNavigation();
 
@@ -44,7 +43,7 @@ export default function AppExplanation(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "rgba(21, 21, 21,098)",
+    backgroundColor: "rgba(21, 21, 21,0.98)",
   },
   title: {
     fontSize: 30,
@@ -61,7 +60,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   description: {
-    color: "white",
+    color: "#fff",
     textAlign: "center",
     marginBottom: 30,
   },
